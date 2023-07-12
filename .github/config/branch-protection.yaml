@@ -8,6 +8,7 @@
     required_linear_history: false
     allow_force_pushes: false
     allow_deletions: false
+    enforce_admins: true
 
 - branch: develop
   protection:
@@ -19,3 +20,4 @@
     required_linear_history: false
     allow_force_pushes: false
     allow_deletions: false
+    enforce_admins: true
