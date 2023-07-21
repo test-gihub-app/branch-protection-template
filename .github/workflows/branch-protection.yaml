@@ -1,9 +1,12 @@
 name: Create Branch Protection
 
-on: 
-  push:
-    branches:
-      - "feature/setup-branch-protection"
+# on: 
+#   push:
+#     branches:
+#       - "feature/setup-branch-protection"
+on:
+  create:
+    branches: main
 
 jobs:
   job-id:
